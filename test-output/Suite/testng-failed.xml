@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="practice.Appium_IOS_Android.Listeners"/>
+    <listener class-name="practice.Appium_IOS_Android.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="practice.Appium_IOS_Android.IOS_ClickTest">
+        <methods>
+          <include name="totalValidation" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- practice.Appium_IOS_Android.IOS_ClickTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
